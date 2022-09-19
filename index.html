@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function calculation(num) {
+            out = document.getElementById('out');
+            result = num * 12 + 3;
+            out.innerText = result;
+        }
+    </script>
+</head>
+<body>
+    <input type="number" oninput="calculation(value)">枚
+    <h2 id="out"></h2>
+</body>
+</html>
